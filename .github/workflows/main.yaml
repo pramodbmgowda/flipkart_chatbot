@@ -90,7 +90,7 @@ jobs:
          
       - name: Stop and remove  container if running
         run: |
-         docker ps -q --filter "name=flipkart" | grep -q . && docker stop flippkart && docker rm -fv flipkart
+         docker ps -q --filter "name=flipkart" | grep -q . && docker stop flipkart && docker rm -fv flipkart
        
       - name: Run Docker Image to serve users
         run: |
