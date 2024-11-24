@@ -15,7 +15,7 @@ def get_requirements() ->List[str]:
     return requirement_list
 
 setup(
-    name = "flipkart",
+    name = "flipkartt",
     version= "0.0.1",
     author="Pramodbm",
     author_email="pramodbmgowda7gmail.com",

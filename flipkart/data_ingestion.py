@@ -24,7 +24,7 @@ def data_ingestion(status):
 
     vstore = AstraDBVectorStore(
         embedding=embedding,
-        collection_name = "flipkart",
+        collection_name = "flipkartt",
         api_endpoint = ASTRA_DB_API_ENDPOINT,
         token = ASTRA_DB_APPLICATION_TOKEN,
         namespace = ASTRA_DB_KEYSPACE 
