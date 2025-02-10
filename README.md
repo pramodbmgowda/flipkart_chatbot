@@ -32,6 +32,7 @@ pip install -r requirements.txt
 ### 5️⃣ Setup Environment Variables
 Create a `.env` file in your project directory and add the following:
 ```sh
+## Only for reference ##
 GROQ_API_KEY="gskJOElTaKd7mCQo9bMnT4EwAHCxdFCte4EO"
 ASTRA_DB_API_ENDPOINT="https://8d7297e-16b3-4020-8960-81054f7a25-us-east-2.apps.astra.datastax.com"
 ASTRA_DB_APPLICATION_TOKEN="AstraCS:TnEJBnBFkaaZqQ:d66326e48341462f4dc2ec8922b51fc7839c140a6b95a2dc06fbeeeead40c4cd"
